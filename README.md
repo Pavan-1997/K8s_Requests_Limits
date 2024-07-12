@@ -1,5 +1,16 @@
 # K8s_Requests_Limits
 
+Requests: This is the minimum amount of resources a pod needs to operate smoothly. Think of it as a guaranteed reservation for the pod.
+
+Limits: This is the maximum amount of resources a pod can use. It acts as a safety cap to prevent any pod from consuming more than its fair share and disrupting others.
+
+### Why?
+
+- Resource Control: By setting limits, you prevent a single pod from monopolizing resources, which can lead to issues like out-of-memory (OOM) kills or CPU starvation. 
+- Predictability: Requests help the scheduler allocate resources efficiently and ensure pods have the necessary resources to run effectively.
+
+---
+
 `kind create cluster --name=pavantest` 
 
 `k apply -f metrics.yaml`
