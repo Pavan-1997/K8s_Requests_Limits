@@ -89,6 +89,7 @@ spec:
 `k top pod memory-demo-2 -n mem-example`
  
  ![image](https://github.com/user-attachments/assets/424eedfb-e7a6-450b-8599-662b086d556c)
+ 
  (No pod running so no metrics)
 
  ## CASE - 3
@@ -127,4 +128,5 @@ spec:
 `k top pod memory-demo-2 -n mem-example`
  
  ![image](https://github.com/user-attachments/assets/424eedfb-e7a6-450b-8599-662b086d556c)
+ 
  (No pod running so no metrics)
