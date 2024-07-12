@@ -14,7 +14,7 @@
 
 `k create ns mem-example`
 
-## CASE 1
+## CASE - 1
 
 `vi mem-stress.yaml`
 
@@ -46,7 +46,7 @@ spec:
  
 ![image](https://github.com/user-attachments/assets/c4646ef1-5624-4fb6-97e0-c328c3dfb308)
 
-## CASE 2
+## CASE - 2
 
 Change the Memory Limit 150
 
@@ -80,7 +80,7 @@ spec:
  ![image](https://github.com/user-attachments/assets/424eedfb-e7a6-450b-8599-662b086d556c)
  (No pod running so no metrics)
 
- ## CASE 3
+ ## CASE - 3
 
  Set the Limits of Memory more than the Node
 
